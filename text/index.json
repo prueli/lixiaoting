@@ -1,0 +1,50 @@
+{
+    "detailjson": [
+        { "img": "images/anime.png", "name": "猫妖的诱惑", "episode": "更新至20集", "num": "播放量6.150.66万" }
+    ],
+    "detaillist": [
+        { "ju": "全部剧集", "num1": "[20]", "num2": "[19]", "num3": "[18]", "num4": "[17]", "num5": "[16]", "num6": "[15]" },
+        { "ju": "", "num1": "[14]", "num2": "[13]", "num3": "[12]", "num4": "[11]", "num5": "[...]", "num6": "[01]" }
+    ],
+    "comicslist": [
+        { "num": "1", "css": "bg", "title": "大象无形", "img": "images/rise.png" },
+        { "num": "2", "css": "bg", "title": "最强作死系统", "img": "images/rise.png" },
+        { "num": "3", "css": "bg", "title": "嗷嗷待埔", "img": "images/rise.png" },
+        { "num": "4", "css": "bg2", "title": "大象无形", "img": "images/rise.png" },
+        { "num": "5", "css": "bg2", "title": "最强作死系统", "img": "images/decline.png" },
+        { "num": "6", "css": "bg2", "title": "嗷嗷待埔", "img": "images/rise.png" },
+        { "num": "7", "css": "bg2", "title": "大象无形", "img": "images/rise.png" },
+        { "num": "8", "css": "bg2", "title": "最强作死系统", "img": "images/decline.png" }
+    ],
+    "rmanlist": [
+        { "num": "1", "css": "bg", "title": "双王", "img": "images/rise.png" },
+        { "num": "2", "css": "bg", "title": "最强作死系统", "img": "images/rise.png" },
+        { "num": "3", "css": "bg", "title": "嗷嗷待埔", "img": "images/rise.png" },
+        { "num": "4", "css": "bg2", "title": "大象无形", "img": "images/rise.png" },
+        { "num": "5", "css": "bg2", "title": "最强作死系统", "img": "images/decline.png" },
+        { "num": "6", "css": "bg2", "title": "嗷嗷待埔", "img": "images/rise.png" },
+        { "num": "7", "css": "bg2", "title": "大象无形", "img": "images/rise.png" },
+        { "num": "8", "css": "bg2", "title": "最强作死系统", "img": "images/decline.png" }
+    ],
+    "comprehensivelist": [
+        { "num": "1", "css": "bg", "title": "19天", "img": "images/rise.png" },
+        { "num": "2", "css": "bg", "title": "最强作死系统", "img": "images/rise.png" },
+        { "num": "3", "css": "bg", "title": "嗷嗷待埔", "img": "images/rise.png" },
+        { "num": "4", "css": "bg2", "title": "大象无形", "img": "images/rise.png" },
+        { "num": "5", "css": "bg2", "title": "最强作死系统", "img": "images/decline.png" },
+        { "num": "6", "css": "bg2", "title": "嗷嗷待埔", "img": "images/rise.png" },
+        { "num": "7", "css": "bg2", "title": "大象无形", "img": "images/rise.png" },
+        { "num": "8", "css": "bg2", "title": "最强作死系统", "img": "images/decline.png" }
+    ],
+    "comicslist2": [
+        { "num": "9", "css": "bg2", "title": "大象无形", "img": "images/rise.png" },
+        { "num": "10", "css": "bg2", "title": "最强作死系统", "img": "images/rise.png" },
+        { "num": "11", "css": "bg2", "title": "嗷嗷待埔", "img": "images/rise.png" },
+        { "num": "12", "css": "bg2", "title": "大象无形", "img": "images/rise.png" },
+        { "num": "13", "css": "bg2", "title": "最强作死系统", "img": "images/decline.png" },
+        { "num": "14", "css": "bg2", "title": "嗷嗷待埔", "img": "images/rise.png" },
+        { "num": "15", "css": "bg2", "title": "大象无形", "img": "images/rise.png" },
+        { "num": "16", "css": "bg2", "title": "最强作死系统", "img": "images/decline.png" }
+    ]
+
+}

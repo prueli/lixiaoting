@@ -1,0 +1,484 @@
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.layout {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.logo {
+    margin-left: 360px;
+    width: 188px;
+    height: 133px;
+}
+
+.search2 {
+    margin-top: 36px;
+    margin-left: 118px;
+}
+
+.search {
+    margin-left: -81px;
+    margin-bottom: -17px;
+}
+
+input {
+    width: 460px;
+    height: 43px;
+    padding-left: 10px;
+}
+
+.head-title ul {
+    width: 280px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 617px;
+    margin-top: -39px;
+}
+
+.head-title ul li {
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.head-title ul li a {
+    color: #717171;
+}
+
+.head-title ul li a:hover {
+    color: #fa9144;
+    text-decoration: underline;
+}
+
+
+/* .title-type {
+    text-align: center;
+} */
+
+.title-type ul {
+    line-height: 50px;
+    background-color: #fa9144;
+    font-size: 16px;
+    padding: 3px 0 3px 0;
+    width: 1894px;
+    /* width: 100%; */
+    margin-top: 20px;
+    /* display: flex;
+    flex-wrap: nowrap; */
+}
+
+.title-type ul li {
+    display: inline-block;
+    width: 73px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-left: solid 1px #feae81;
+}
+
+.title-type ul li a {
+    color: white;
+}
+
+.title-type ul li:hover {
+    background-color: #f1854b;
+}
+
+.title-type .home {
+    background-color: #f1854b;
+    margin-left: 370px;
+}
+
+.title-type .contribution {
+    background-color: #393939;
+    width: 159px;
+    height: 37px;
+    line-height: 37px;
+    margin-left: 304px;
+    margin-top: 11px;
+}
+
+.title-type .contribution a {
+    color: #ffe6b7;
+    font-size: 15px;
+}
+
+.title-type .contribution img,
+a {
+    vertical-align: middle;
+}
+
+.title-type .recharge {
+    margin-top: 10px;
+    background-color: #fbe4bb;
+    width: 97px;
+    height: 37px;
+    line-height: 37px;
+}
+
+.title-type .recharge a {
+    font-size: 15px;
+    color: #7d360f;
+}
+
+.title-type .recharge img,
+a {
+    vertical-align: middle;
+}
+
+.plot-type ul {
+    font-size: 14px;
+    padding-left: 365px;
+    color: #666666;
+    width: 1203px;
+}
+
+.plot-type ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.plot-type ul li:hover {
+    color: #fa9144;
+    cursor: pointer;
+}
+
+.plot-type .plot-active {
+    color: #fa9144;
+}
+
+.plot-type .classification {
+    float: right;
+    width: 91px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    border: solid 1px #696866;
+}
+
+.plot-type .classification img,
+a {
+    vertical-align: middle;
+}
+
+.plot-type .classification a {
+    color: #666666;
+}
+
+.plot-type .classification:hover {
+    background-color: #fa9144;
+}
+
+.anime-list .anime-list-ul {
+    font-size: 14px;
+    padding-left: 368px;
+    margin-top: 15px;
+    position: relative;
+    width: 1207px;
+}
+
+.anime-list .anime-list-ul>li {
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.anime-list .anime-list-ul>li a {
+    color: #666666;
+}
+
+.anime-list .anime-list-ul>li a:hover {
+    color: #fa9144;
+}
+
+.anime-list .anime-list-ul>li img,
+a {
+    vertical-align: middle;
+}
+
+.anime-first {
+    width: 64px;
+    height: 28px;
+    background-color: #fa9144;
+    color: white;
+    line-height: 28px;
+    text-align: center;
+    padding: 5px 5px 0 5px;
+}
+
+.lunbo {
+    width: 920px;
+    margin-left: 355px;
+}
+
+.layout {
+    display: flex;
+}
+
+.pank-contain {
+    width: 282px;
+    height: 359px;
+    background-color: #555555;
+    color: #CFCFCF;
+}
+
+.pank-contain .guoman {
+    display: flex;
+}
+
+.pank {
+    display: flex;
+    width: 282px;
+}
+
+.pank h3 {
+    background-color: #555555;
+    color: #ff9a6a;
+    padding-left: 7px;
+    margin-top: 15px;
+}
+
+.pank .title {
+    font-size: 18px;
+    background-color: #393939;
+    line-height: 54px;
+    margin: 0;
+    padding: 0;
+    width: 190px;
+    margin-left: 10px;
+}
+
+.pank .title li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.active {
+    border-bottom: solid 3px #ff9a6a;
+}
+
+.guoman-name {
+    padding: 0;
+    margin-left: 11px;
+    font-size: 12px;
+    margin-right: 1px;
+}
+
+.bg2 {
+    background-color: #353334;
+    color: #9a8d70;
+}
+
+.guoman-name li span {
+    line-height: 20px;
+    padding: 2px 6px;
+    margin-right: 5px;
+}
+
+.guoman-name li {
+    margin-top: 6px;
+}
+
+.guoman-name .bg {
+    background-color: #FF9A6A;
+    color: white;
+}
+
+.recommend-name {
+    padding: 0;
+    margin-left: 11px;
+    font-size: 12px;
+    margin-right: 1px;
+}
+
+.recommend-name li span {
+    line-height: 20px;
+    padding: 2px 6px;
+    margin-right: 5px;
+}
+
+.recommend-name li {
+    margin-top: 6px;
+}
+
+.recommend-name .bg {
+    background-color: #FF9A6A;
+    color: white;
+}
+
+.rman-name {
+    padding: 0;
+    margin-left: 11px;
+    font-size: 12px;
+    margin-right: 1px;
+}
+
+.rman-name li span {
+    line-height: 20px;
+    padding: 2px 6px;
+    margin-right: 5px;
+}
+
+.rman-name li {
+    margin-top: 6px;
+}
+
+.rman-name .bg {
+    background-color: #FF9A6A;
+    color: white;
+}
+
+.comprehensive-name {
+    padding: 0;
+    margin-left: 11px;
+    font-size: 12px;
+    margin-right: 1px;
+}
+
+.comprehensive-name li span {
+    line-height: 20px;
+    padding: 2px 6px;
+    margin-right: 5px;
+}
+
+.comprehensive-name li {
+    margin-top: 6px;
+}
+
+.comprehensive-name .bg {
+    background-color: #FF9A6A;
+    color: white;
+}
+
+.subscript {
+    float: right;
+}
+
+.recommend li {
+    display: inline-block;
+    color: #FFCA68;
+}
+
+.recommend li span {
+    border-radius: 6px;
+}
+
+.recommend .push {
+    float: right;
+    margin-right: 55px;
+}
+
+.split {
+    border-top: dashed 1px #353334;
+}
+
+.tv-details {
+    position: absolute;
+    z-index: 1;
+    border: solid 1px black;
+    width: 243px;
+    height: 292px;
+    padding: 15px;
+    position: absolute;
+    background: white;
+    display: none;
+    margin-top: 7px;
+}
+
+.tv-details img {
+    width: 245px;
+    height: 125px;
+}
+
+.tv-details li:hover {
+    color: #FFCA68;
+    cursor: pointer;
+}
+
+.details-name {
+    font-size: 18px;
+}
+
+.episode:hover {
+    color: #FFCA68;
+    cursor: pointer;
+}
+
+.details-name:hover {
+    color: #FFCA68;
+    cursor: pointer;
+}
+
+.episode {
+    font-size: 12px;
+    font-weight: bold;
+    float: right;
+}
+
+.volume {
+    font-size: 12px;
+    color: #666666;
+}
+
+.all-episode {
+    font-size: 13px;
+}
+
+.all-ul li {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.all-ul {
+    padding-left: 0;
+}
+
+.guoman2-name {
+    padding: 0;
+    margin-left: 11px;
+    font-size: 12px;
+    margin-right: 1px;
+}
+
+.guoman2-name li span {
+    line-height: 20px;
+    padding: 2px 6px;
+    margin-right: 5px;
+}
+
+.guoman2-name li {
+    margin-top: 6px;
+}
+
+.guoman2-name .bg {
+    background-color: #FF9A6A;
+    color: white;
+}
+
+.guoman2-name {
+    padding: 0;
+    margin-left: 11px;
+    font-size: 12px;
+    margin-right: 1px;
+}
+
+.guoman2-name li span {
+    line-height: 20px;
+    padding: 2px 6px;
+    margin-right: 5px;
+}
+
+.guoman2-name li {
+    margin-top: 6px;
+}
+
+.guoman2-name .bg {
+    background-color: #FF9A6A;
+    color: white;
+}
