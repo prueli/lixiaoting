@@ -3,7 +3,6 @@ function ajax() {
             url: "index.json",
             type: "get",
             success: function(data) {
-                getdetaillist(data);
                 getailjson(data);
                 getcomicslist(data);
                 getrmanlist(data);
@@ -17,23 +16,27 @@ function ajax() {
             console.log(data.detailjson[i].img)
             var xian = $("<img src=" + data.detailjson[i].img + ">" +
                 "<p><span class='details-name'>" + data.detailjson[i].name + "</span><span class='episode'>" + data.detailjson[i].episode + "</span></p>" +
-                "<p class='volume'>" + data.detailjson[i].num + "</p>" + "<div class='all-episode'></div>")
-            $(".tv-details").append(xian)
-        }
-        getdetaillist(data);
-    }
-    //显示看漫画的集数
-    function getdetaillist(data) {
-        for (var i = 0; i < data.detaillist.length; i++) {
-            console.log(data.detaillist[i])
-            var xian = $("<div><p>" + data.detaillist[i].ju + "</p>" +
-                "<ul class='all-ul'><li>" + data.detaillist[i].num1 + "</li>" +
-                "<li>" + data.detaillist[i].num2 + "</li>" +
-                "<li>" + data.detaillist[i].num3 + "</li>" +
-                "<li>" + data.detaillist[i].num4 + "</li>" +
-                "<li>" + data.detaillist[i].num5 + "</li>" +
-                "<li>" + data.detaillist[i].num6 + "</li></ul></div>");
-            $(".all-episode").append(xian);
+                "<p class='volume'>" + data.detailjson[i].num + "</p>" + "<p>" + data.detailjson[i].ju + "</p><ul class='all-ul'></ul>")
+            $(".tv-details:eq(" + i + ")").append(xian)
+            if (data.detailjson[i].number1.length != 11) {
+                console.log("哈哈哈哈" + data.detailjson[i].number1.length)
+                for (var j = data.detailjson[i].number1[0]; j > data.detailjson[i].number1[0] - 10; j--) {
+                    // console.log('123123111---'+j)
+                    var xian2 = $("<li>" + j + "</li>")
+                    $(".all-ul:eq(" + i + ")").append(xian2)
+                }
+            } else {
+                for (var j = data.detailjson[i].number1[0]; j > data.detailjson[i].number1[0]; j--) {
+                    // console.log('123123111---'+j)
+                    var xian2 = $("<li>" + j + "</li>")
+                    $(".all-ul:eq(" + i + ")").append(xian2)
+                }
+            }
+            if (data.detailjson[i].number1.length != 12) {
+                $(".all-ul:eq(" + i + ")").append("<li> . . . </li>")
+                $(".all-ul:eq(" + i + ")").append("<li>1</li>")
+            }
+
         }
     }
 

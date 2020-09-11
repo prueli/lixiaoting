@@ -9,7 +9,7 @@ li {
 .layout {
     display: flex;
     flex: 1;
-    position: relative;
+    /* position: relative; */
 }
 
 .logo {
@@ -57,21 +57,13 @@ input {
     text-decoration: underline;
 }
 
-
-/* .title-type {
-    text-align: center;
-} */
-
 .title-type ul {
     line-height: 50px;
     background-color: #fa9144;
     font-size: 16px;
     padding: 3px 0 3px 0;
     width: 1894px;
-    /* width: 100%; */
     margin-top: 20px;
-    /* display: flex;
-    flex-wrap: nowrap; */
 }
 
 .title-type ul li {
@@ -266,7 +258,7 @@ a {
 .guoman-name {
     padding: 0;
     margin-left: 11px;
-    font-size: 12px;
+    font-size: 1px;
     margin-right: 1px;
 }
 
@@ -277,7 +269,7 @@ a {
 
 .guoman-name li span {
     line-height: 20px;
-    padding: 2px 6px;
+    padding: 1px 5px;
     margin-right: 5px;
 }
 
@@ -293,13 +285,13 @@ a {
 .recommend-name {
     padding: 0;
     margin-left: 11px;
-    font-size: 12px;
+    font-size: 1px;
     margin-right: 1px;
 }
 
 .recommend-name li span {
     line-height: 20px;
-    padding: 2px 6px;
+    padding: 1px 5px;
     margin-right: 5px;
 }
 
@@ -315,13 +307,13 @@ a {
 .rman-name {
     padding: 0;
     margin-left: 11px;
-    font-size: 12px;
+    font-size: 1px;
     margin-right: 1px;
 }
 
 .rman-name li span {
     line-height: 20px;
-    padding: 2px 6px;
+    padding: 1px 5px;
     margin-right: 5px;
 }
 
@@ -337,13 +329,13 @@ a {
 .comprehensive-name {
     padding: 0;
     margin-left: 11px;
-    font-size: 12px;
+    font-size: 1px;
     margin-right: 1px;
 }
 
 .comprehensive-name li span {
     line-height: 20px;
-    padding: 2px 6px;
+    padding: 1px 5px;
     margin-right: 5px;
 }
 
@@ -432,7 +424,14 @@ a {
 
 .all-ul li {
     display: inline-block;
-    margin-right: 12px;
+    margin-right: 4px;
+    margin-bottom: 12px;
+    /* border: solid; */
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    margin-left: 11px;
 }
 
 .all-ul {
@@ -464,13 +463,13 @@ a {
 .guoman2-name {
     padding: 0;
     margin-left: 11px;
-    font-size: 12px;
+    font-size: 1px;
     margin-right: 1px;
 }
 
 .guoman2-name li span {
     line-height: 20px;
-    padding: 2px 6px;
+    padding: 1px 5px;
     margin-right: 5px;
 }
 
