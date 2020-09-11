@@ -1,0 +1,24 @@
+* {
+    margin: 0 auto;
+    padding: 0
+}
+
+.body-em {
+    font-size: 14px;
+}
+
+.body-rem {
+    font-size: 14px;
+}
+
+.p1-rem {
+    font-size: 2rem;
+}
+
+.div-rem {
+    font-size: 18px;
+}
+
+.p2-rem {
+    font-size: 2rem;
+}
